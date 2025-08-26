@@ -2,10 +2,10 @@ package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.session.hazelcast.config.annotation.web.http.EnableHazelcastHttpSession;
+//import org.springframework.session.hazelcast.config.annotation.web.http.EnableHazelcastHttpSession;
 
 @SpringBootApplication
-@EnableHazelcastHttpSession
+//@EnableHazelcastHttpSession
 public class VaadinHazelcastApplication {
     public static void main(String[] args) {
         SpringApplication.run(VaadinHazelcastApplication.class, args);
