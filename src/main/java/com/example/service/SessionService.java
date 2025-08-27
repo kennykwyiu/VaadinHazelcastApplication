@@ -12,8 +12,8 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 @Service
 public class SessionService {
 
-    @Autowired
-    private HazelcastInstance hazelcastInstance;
+//    @Autowired
+    private HazelcastInstance hazelcastInstance = null;
 
     public String getSessionId() {
         HttpSession session = getCurrentSession();
