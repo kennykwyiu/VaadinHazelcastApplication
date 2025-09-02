@@ -79,10 +79,10 @@ public class MainView extends VerticalLayout {
         sessionInfo.removeAll();
 
         String sessionId = sessionService.getSessionId();
-        String nodeInfo = sessionService.getNodeInfo();
+//        String nodeInfo = sessionService.getNodeInfo();
 
         sessionInfo.add(new Paragraph("Session ID: " + sessionId));
-        sessionInfo.add(new Paragraph("Hazelcast Node: " + nodeInfo));
+//        sessionInfo.add(new Paragraph("Hazelcast Node: " + nodeInfo));
         sessionInfo.add(new Paragraph("Session is shared across all cluster nodes via Hazelcast."));
     }
 
